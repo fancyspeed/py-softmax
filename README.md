@@ -4,7 +4,9 @@ Implemetation of softmax regression in python.
 
 ## Data format
 
-Same as LibSVM.
+Compatible with LibSVM. Allow multiple labels each line.
+
+`label1,label2 idx:weight idx:weight ...`
 
 ## Learning algorithm
 
@@ -12,7 +14,7 @@ Stochasic Gradient Descent.
 
 ## Parameters
 
-* lambda: learning rate
+* alpha: learning rate
 * eta: cost of regularizer
-* delta: condition of convergence
+* epsion: condition of convergence
 * iter: max iteration
